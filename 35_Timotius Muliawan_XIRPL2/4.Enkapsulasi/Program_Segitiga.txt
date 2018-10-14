@@ -1,0 +1,20 @@
+            Class1 segitiga = new Class1();
+
+            int alas = segitiga.getalas();
+            int tinggi = segitiga.gettinggi();
+            int sisim = segitiga.getsisim();
+            Console.Write("Alas Segitiga          : ");
+            int Alas = Convert.ToInt16(Console.ReadLine());
+            int alass = segitiga.setalas(Alas);
+            Console.Write("Tinggi Segitiga        : ");
+            int Tinggi = Convert.ToInt16(Console.ReadLine());
+            int tinggii = segitiga.settinggi(Tinggi);
+            Console.Write("Sisi Miring Segitiga   : ");
+            int SisiM = Convert.ToInt16(Console.ReadLine());
+            int sm = segitiga.setsisim(SisiM);
+            int Luas = Alas * Tinggi / 2;
+            int Keliling = Alas + Tinggi + SisiM;
+            Console.WriteLine("Luas Segitiga          : " + Luas);
+            Console.WriteLine("Keliling Segitiga      : " + Keliling);
+
+            Console.ReadLine();

@@ -1,0 +1,27 @@
+public class bd
+    {
+        public double lp(double sisi)
+        {
+            return sisi * sisi;
+        }
+        public double kp(double sisi)
+        {
+            return 4 * sisi;
+        }
+        public double lpp(double panjang, double lebar)
+        {
+            return panjang * lebar;
+        }
+        public double kpp(double panjang, double lebar)
+        {
+            return 2*panjang + 2*lebar;
+        }
+        public double ls(double alas, double tinggi)
+        {
+            return alas * tinggi /2;
+        }
+        public double ks(double alas, double tinggi, double sisim)
+        {
+            return alas + tinggi + sisim;
+        }
+    }

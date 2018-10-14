@@ -1,0 +1,10 @@
+E:\KK3\kalkulator2\kalkulator2\bin\Debug\kalkulator2.exe.config
+E:\KK3\kalkulator2\kalkulator2\bin\Debug\kalkulator2.exe
+E:\KK3\kalkulator2\kalkulator2\bin\Debug\kalkulator2.pdb
+E:\KK3\kalkulator2\kalkulator2\bin\Debug\Kalkulator.dll
+E:\KK3\kalkulator2\kalkulator2\bin\Debug\Kalkulator.pdb
+E:\KK3\kalkulator2\kalkulator2\obj\Debug\kalkulator2.csprojAssemblyReference.cache
+E:\KK3\kalkulator2\kalkulator2\obj\Debug\kalkulator2.csproj.CoreCompileInputs.cache
+E:\KK3\kalkulator2\kalkulator2\obj\Debug\kalkulator2.csproj.CopyComplete
+E:\KK3\kalkulator2\kalkulator2\obj\Debug\kalkulator2.exe
+E:\KK3\kalkulator2\kalkulator2\obj\Debug\kalkulator2.pdb

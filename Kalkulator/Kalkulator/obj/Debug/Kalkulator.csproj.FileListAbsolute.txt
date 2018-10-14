@@ -1,0 +1,6 @@
+E:\KK3\Kalkulator\Kalkulator\bin\Debug\Kalkulator.dll
+E:\KK3\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+E:\KK3\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojAssemblyReference.cache
+E:\KK3\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+E:\KK3\Kalkulator\Kalkulator\obj\Debug\Kalkulator.dll
+E:\KK3\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb

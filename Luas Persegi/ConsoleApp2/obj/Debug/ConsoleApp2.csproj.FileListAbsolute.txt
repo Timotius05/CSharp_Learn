@@ -1,0 +1,6 @@
+E:\KK3\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+E:\KK3\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+E:\KK3\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+E:\KK3\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+E:\KK3\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+E:\KK3\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

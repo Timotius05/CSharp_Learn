@@ -1,0 +1,126 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using bidangdatar;
+
+namespace ConsoleApplication14_bd
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bd lkbd = new bd();
+
+            menu:
+            Console.Clear();
+            Console.WriteLine("Main Menu");
+            Console.WriteLine("1. Segitiga");
+            Console.WriteLine("2. Persegi");
+            Console.WriteLine("3. Persegi Panjang");
+            Console.Write("Pilih Menu = ");
+            int menu = Convert.ToInt16(Console.ReadLine());
+            if (menu == 1)
+            {
+                goto segitiga;
+            }
+            if (menu == 2)
+            {
+                goto persegi;
+            }
+            if (menu == 3)
+            {
+                goto persegip;
+            }
+
+        segitiga:
+            Console.WriteLine("LUAS DAN KELILING SEGITIGA");
+            Console.WriteLine();
+            Console.Write("Input Alas        : ");
+            double x = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Tinggi      : ");
+            double y = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi miring : ");
+            double m = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================");
+            Console.WriteLine("Luas Segitiga     : {0}" , lkbd.ls(x,y));
+            Console.WriteLine("Keliling Segitiga : {0}", lkbd.ks(x,y,m));
+            Console.ReadLine();
+            Console.WriteLine("Kembali ke Menu Utama (Y/N)");
+            string jawab = Convert.ToString(Console.ReadLine());
+            if (jawab == "y" || jawab == "Y")
+            {
+                goto menu;
+            }
+            if (jawab == "n" || jawab == "N")
+            {
+                goto segitiga;
+            }
+            else
+            {
+
+                Console.Clear();
+            }
+
+        persegi:
+            Console.WriteLine("LUAS DAN KELILING PERSEGI");
+            Console.WriteLine();
+            Console.Write("Input Sisi        : ");
+            double s = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================");
+            Console.WriteLine("Luas Persegi      : {0}", lkbd.lp(s));
+            Console.WriteLine("Keliling Persegi  : {0}", lkbd.kp(s));
+            Console.ReadLine();
+            Console.WriteLine("Kembali ke Menu Utama (Y/N)");
+            string jawab1 = Convert.ToString(Console.ReadLine());
+            if (jawab1 == "y" || jawab1 == "Y")
+            {
+                goto menu;
+            }
+            if (jawab1 == "n" || jawab1 == "N")
+            {
+                goto persegi;
+            }
+            else
+            {
+
+                Console.Clear();
+            }
+
+        persegip:
+            Console.WriteLine("LUAS DAN KELILING PERSEGI PANJANG");
+            Console.WriteLine();
+            Console.Write("Input Lebar         : ");
+            double sk = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Panjang        : ");
+            double sj = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("================================");
+            Console.WriteLine("Luas Persegi Panjang      : {0}", lkbd.lpp(sk,sj));
+            Console.WriteLine("Keliling Persegi Panjang  : {0}", lkbd.kpp(sk,sj));
+            Console.ReadLine();
+            Console.WriteLine("Kembali ke Menu Utama (Y/N)");
+            string jawab2 = Convert.ToString(Console.ReadLine());
+            if (jawab2 == "y" || jawab2 == "Y")
+            {
+                goto menu;
+            }
+            if (jawab2 == "n" || jawab2 == "N")
+            {
+                goto segitiga;
+            }
+            else
+            {
+
+                Console.Clear();
+            }
+
+        }
+    }
+}

@@ -1,0 +1,27 @@
+ public partial class Login : Form
+    {
+        public Login()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Focus();
+            }
+            else if (textBox2.Text == "")
+            {
+                textBox2.Focus();
+            }
+            else if (textBox1.Text == "Timotius" && textBox2.Text == "12345678")
+            {
+                Form1 a = new Form1();
+                a.Show();
+                this.Hide();
+            }
+            else
+                MessageBox.Show("Username Or Password Invalid");
+        }
+    }

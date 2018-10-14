@@ -1,0 +1,31 @@
+        private int alas;
+        private int tinggi;
+        private int sisim;
+
+        public int getalas()
+        {
+            return alas;
+        }
+        public int setalas(int nalas)
+        {
+            alas += nalas;
+            return nalas;
+        }
+        public int gettinggi()
+        {
+            return tinggi;
+        }
+        public int settinggi(int ntinggi)
+        {
+            tinggi += ntinggi;
+            return ntinggi;
+        }
+        public int getsisim()
+        {
+            return sisim;
+        }
+        public int setsisim(int nsisim)
+        {
+            sisim += nsisim;
+            return nsisim;
+        }

@@ -1,0 +1,13 @@
+hitung casio = new hitung();
+
+            Console.WriteLine("=======CALCULATOR========");
+            Console.Write("Masukan angka pertama : ");
+            int a = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Masukan angka kedua : ");
+            int b = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Hasil penambahan : " + casio.add(a,b));
+            Console.WriteLine("Hasil pengurangan : " + casio.min(a, b));
+            Console.WriteLine("Hasil perkalian : " + casio.cross(a, b));
+            Console.WriteLine("Hasil pembagian : " + casio.deivide(a, b));
+
+            Console.ReadLine();

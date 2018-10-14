@@ -1,0 +1,15 @@
+ class hantu
+    {
+        public virtual void eat()
+        {
+
+        }
+       /* public virtual void breed()
+        {
+ 
+        }
+        public virtual void fly()
+        {
+
+        }*/
+    }

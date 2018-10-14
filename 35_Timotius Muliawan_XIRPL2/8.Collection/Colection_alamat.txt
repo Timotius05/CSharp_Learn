@@ -1,0 +1,10 @@
+  string[] alamat = new string[4]{
+              "Purwokerto" , "Jogja" , "Majenang" , "Cilacap"  
+            };
+            Console.WriteLine(alamat[0].Length);
+            Console.WriteLine(alamat[1].IndexOf('r'));
+            Console.WriteLine(alamat[2].LastIndexOf('j'));
+            Console.WriteLine(alamat[3].Insert(7, "pp"));
+            Console.WriteLine(alamat[0].Replace('o', 'i'));
+            Console.WriteLine(alamat[1].Remove(5, 2));
+            Console.ReadLine();

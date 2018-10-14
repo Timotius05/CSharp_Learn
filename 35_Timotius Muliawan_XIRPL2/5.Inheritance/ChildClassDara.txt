@@ -1,0 +1,15 @@
+ class dara : hantu
+    {
+        public override void eat()
+        {
+            Console.WriteLine("Burung dara makan jagung");
+        }
+       /* public override void breed()
+        {
+
+        }
+        public override void fly()
+        {
+
+        }*/
+    }

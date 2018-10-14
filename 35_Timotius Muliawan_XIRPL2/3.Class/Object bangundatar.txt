@@ -1,0 +1,23 @@
+ {
+            bangundatar Persegip = new bangundatar();
+            Console.WriteLine("Main Menu ");
+            Console.WriteLine("1. Persegi");
+            Console.WriteLine("2. Segitiga");
+            Console.WriteLine("3. Persegi Panjang");
+            Console.Write("Masukan menu : ");
+            double a = Convert.ToInt64(Console.ReadLine());
+            if (a == 1)
+            {
+                Persegip.persegi();
+            }
+            if (a == 2)
+            {
+                Persegip.segitiga();
+            }
+            if (a == 3)
+            {
+                Persegip.persegipanjang();
+            }
+           
+        }
+            

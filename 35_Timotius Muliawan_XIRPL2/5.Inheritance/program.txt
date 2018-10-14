@@ -1,0 +1,13 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            dara dara1 = new dara();
+            merpati merpati1 = new merpati();
+
+            dara1.eat();
+            merpati1.eat();
+
+            Console.ReadLine();
+        }
+    }

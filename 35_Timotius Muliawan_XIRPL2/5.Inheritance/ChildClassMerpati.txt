@@ -1,0 +1,15 @@
+class merpati : hantu
+    {
+        public override void eat()
+        {
+            Console.WriteLine("Burung merpati makan buah");
+        }
+      /*  public override void breed()
+        {
+
+        }
+        public override void fly()
+        {
+
+        }*/
+    }

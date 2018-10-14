@@ -1,0 +1,61 @@
+{
+    class bangundatar
+    {
+
+        public double persegi()
+        {
+            Console.Clear();
+            Console.WriteLine("LUAS DAN KELILING PERSEGI");
+            Console.WriteLine();
+            Console.Write("Input Sisi        : ");
+            double s = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================");
+            Console.WriteLine("Luas Persegi      : {0}", s * s);
+            Console.WriteLine("Keliling Persegi  : {0}", 2 * s * s);
+            Console.ReadLine();
+
+            return (s);
+           
+            
+        }
+        public double segitiga()
+        {
+            Console.Clear();
+            Console.WriteLine("LUAS DAN KELILING SEGITIGA");
+            Console.WriteLine();
+            Console.Write("Input Alas        : ");
+            double x = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Tinggi      : ");
+            double y = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi miring : ");
+            double m = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================");
+            Console.WriteLine("Luas Segitiga     : {0}", x * y / 2);
+            Console.WriteLine("Keliling Segitiga : {0}", m + y + x);
+            Console.ReadLine();
+
+            return (y);
+            
+        }
+        public double persegipanjang()
+        {
+            Console.Clear();
+            Console.WriteLine("LUAS DAN KELILING PERSEGI PANJANG");
+            Console.WriteLine();
+            Console.Write("Input Lebar         : ");
+            double sk = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Panjang        : ");
+            double sj = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("================================");
+            Console.WriteLine("Luas Persegi Panjang      : {0}", sk * sj);
+            Console.WriteLine("Keliling Persegi Panjang  : {0}", 2 * (sk + sj));
+            Console.ReadLine();
+
+            return(sj);
+        }

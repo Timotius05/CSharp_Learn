@@ -1,0 +1,7 @@
+E:\KK3\For\For\obj\Debug\For.csprojAssemblyReference.cache
+E:\KK3\For\For\obj\Debug\For.csproj.CoreCompileInputs.cache
+E:\KK3\For\For\bin\Debug\For.exe.config
+E:\KK3\For\For\bin\Debug\For.exe
+E:\KK3\For\For\bin\Debug\For.pdb
+E:\KK3\For\For\obj\Debug\For.exe
+E:\KK3\For\For\obj\Debug\For.pdb

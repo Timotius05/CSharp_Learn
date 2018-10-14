@@ -1,0 +1,11 @@
+E:\KK3\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.deps.json
+E:\KK3\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.runtimeconfig.json
+E:\KK3\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.runtimeconfig.dev.json
+E:\KK3\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.dll
+E:\KK3\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.pdb
+E:\KK3\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.csprojAssemblyReference.cache
+E:\KK3\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+E:\KK3\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.AssemblyInfoInputs.cache
+E:\KK3\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.AssemblyInfo.cs
+E:\KK3\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.dll
+E:\KK3\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.pdb

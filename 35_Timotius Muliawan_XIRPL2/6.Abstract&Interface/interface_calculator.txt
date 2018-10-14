@@ -1,0 +1,29 @@
+interface terserah
+    {
+       
+        
+            double add(double x, double y);
+            double min(double x, double y);
+            double cross(double x, double y);
+            double deivide(double x, double y);
+        
+    }
+     class hitung : terserah
+    {
+        public double add(double x, double y) 
+        {
+            return (x + y);
+        }
+       public double min(double x, double y)
+            {
+            return (x - y);
+        }
+       public double cross(double x, double y)
+            {
+            return (x * y);
+        }
+       public double deivide(double x, double y)
+        {
+            return (x / y);
+        }
+    }
